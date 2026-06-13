@@ -24,4 +24,4 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: Website_Health_Checker.py
+        run: python3 Website_Health_Checker.py
