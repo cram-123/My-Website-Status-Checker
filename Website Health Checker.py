@@ -75,18 +75,18 @@ def check_url_status(url, timeout = 5):
 def main():
     #List of websites to test
 
-    while True:
-        for key, value in url.items():
-            check_status_response = check_url_status(url[key])
-            if check_status_response:
-                website_status_label = f'{key} is UP AND RUNNING'
-                print(website_status_label)
-            else:
-                website_status_label = f'{key} is currently down! Please contact the website administrator.'
-                #print(website_status_label)
-                send_telegram_notification(website_status_label)
+    #while True: LOOP IS NOT NEEDED IN LIVE SERVER
+    for key, value in url.items():
+        check_status_response = check_url_status(url[key])
+        if check_status_response:
+            website_status_label = f'{key} is UP AND RUNNING'
+            print(website_status_label)
+        else:
+            website_status_label = f'{key} is currently down! Please contact the website administrator.'
+            #print(website_status_label)
+            send_telegram_notification(website_status_label)
         
-        time.sleep(3,600)
+        #time.sleep(3,600)
 
 if __name__ == '__main__':
     main()
