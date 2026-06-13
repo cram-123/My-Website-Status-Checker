@@ -1,7 +1,7 @@
 Hi - this is my first Python project which also serves as my final project for CIP 2026!
 
 ////////////////////////////////////////////////////////////////////////////////////////
-Project name: Website Health Checkerr
+Project name: Website Health Checker
 
 Description:
 Pre-determined website links are indicated in dictionary. This project automatically,
@@ -13,14 +13,14 @@ setup to handle this scenario.
 ////////////////////////////////////////////////////////////////////////////////////////
 
 This is my first Python project and I was very excited to apply my learning from CIP.
-Examples of such as dictionaries, for loops, and the general Python syntax.
+Examples of such are the concepts of dictionaries, for loops, and the general Python syntax.
 
 Since it is my final project, I intended to learn more and apply things that I found 
 interesting - this includes:
     1. APIs
     2. Handling exception error
     3. Setting up Telegram bot
-    4. Depoying a project to a live server (Github action) so that it continuosly runs!
+    4. Deploying a project to a live server (Github action) so that it continuously runs!
 
 Even though the project idea is not novel, this final project still serves as a reflection
 of my "working" foundational knowledge!
