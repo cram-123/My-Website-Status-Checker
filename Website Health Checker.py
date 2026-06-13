@@ -22,8 +22,8 @@ from dotenv import load_dotenv
 #Load variables from .env files
 
 #Telegram Bot configuration details
-bot_token = os.getenv('bot_token')
-chat_id = os.getenv('chat_id')
+bot_token = os.getenv('BOT_TOKEN')
+chat_id = os.getenv('CHAT_ID')
 
 #Bypass bot detection on certain websites
 headers = {
