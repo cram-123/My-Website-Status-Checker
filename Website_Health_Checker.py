@@ -56,7 +56,7 @@ def send_telegram_notification(message):
 def check_url_status(url, timeout = 5):
     try:
         response = requests.get(url, timeout=timeout, headers=headers)
-        if response.status_code == 200:
+        if response.status_code == 300:
             #print('Website is up and running!')
             return True
         else:
